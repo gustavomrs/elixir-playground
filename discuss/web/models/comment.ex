@@ -12,6 +12,6 @@ defmodule Discuss.Comment do
   def changeset(struct, params \\ %{}) do
     struct
     |> cast(params, [:content])
-    |> validate_required([:required])
+    |> validate_required([:content])
   end
 end
