@@ -18,7 +18,7 @@ const createSocket = (topicId) => {
     channel.on(`comments:${topicId}:new`, renderComment)
 
     document.querySelector('button').addEventListener('click', () => {
-      const content = document.querySelector('textarea').value
+      const content = document.querySelector('textarea').value;
 
       channel.push('comment:add', { content: content });
   })
@@ -32,10 +32,10 @@ function renderComments(comments) {
   document.querySelector('.collection').innerHTML = renderedComments.join('')
 }
 
-function renderComment(comment) {
-  return commentTemplate(comment);
+function renderComment(event) {
+  const renderedComment = commentTemplate(event.comment)
 
-  document.querySelector('.collection').innerHTML = renderedComments.join('')
+  document.querySelector('.collection').innerHTML += renderedComment;
 }
 
 function commentTemplate(comment) {
@@ -43,7 +43,7 @@ function commentTemplate(comment) {
     <li class="collection-item">
       ${comment.content}
     </li>
-  `
+  `;
 }
 
-window.createSocket = createSocket
+window.createSocket = createSocket;
