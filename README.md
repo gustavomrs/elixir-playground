@@ -17,7 +17,7 @@ This is an elixir application, using the Phoenix framework and the main objectiv
 
 * ## Add comments (shown in real time, using websocket)
 
-![Create comments](discuss/demo/add_coments.gif)
+![Create comments](discuss/demo/add_comments.gif)
 
 
 ## Identicon
