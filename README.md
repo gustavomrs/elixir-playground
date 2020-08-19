@@ -27,5 +27,18 @@ This is an elixir application, using the Phoenix framework and the main objectiv
 ![Identicon](identicon/demo/identicon.gif)
 
 ## Cards
-Nothing special
-: https://github.com/gustavomrs/elixir-playground/tree/master/cards
+
+* ## Just a simple module to deal shuffled cards for a given hand size
+
+```elixir
+Interactive Elixir (1.10.4) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> Cards
+Cards
+iex(2)> Cards.create_hand(5)
+{["Ace of Clubs", "Two of Diamonds", "Two of Clubs", "Five of Clubs",
+  "Four of Clubs"],
+ ["Three of Diamonds", "Four of Spades", "Ace of Spades", "Two of Hearts",
+  "Three of Spades", "Four of Hearts", "Ace of Diamonds", "Three of Clubs",
+  "Five of Spades", "Ace of Hearts", "Five of Diamonds", "Four of Diamonds",
+  "Three of Hearts", "Two of Spades", "Five of Hearts"]}
+```
