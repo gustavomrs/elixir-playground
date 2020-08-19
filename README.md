@@ -31,9 +31,6 @@ This is an elixir application, using the Phoenix framework and the main objectiv
 * ## Just a simple module to deal shuffled cards for a given hand size
 
 ```elixir
-Interactive Elixir (1.10.4) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)> Cards
-Cards
 iex(2)> Cards.create_hand(5)
 {["Ace of Clubs", "Two of Diamonds", "Two of Clubs", "Five of Clubs",
   "Four of Clubs"],
