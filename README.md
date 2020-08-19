@@ -1,10 +1,10 @@
 # Elixir Playground
 
-## Genral Description
+## Description
 
 The objective of this repository is purely to store all of the code that I've been playing around related to the the elixir language. This repository is composed by three folders: cards, identicon and discuss and here below there is a few explanation about each of this folders:
 
-## Discuss
+## 1 - Discuss
 This is an elixir application, using the Phoenix framework and the main objective of this app is to be a forum where people can post topics to discuss, commenting on this topics. Main points of the app:
 
 * ### Login with Github (OAuth)
@@ -20,13 +20,13 @@ This is an elixir application, using the Phoenix framework and the main objectiv
 ![Create comments](discuss/demo/add_comments.gif)
 
 
-## Identicon
+## 2 - Identicon
 
 * ## Simple elixir module to generate Identicon based on strings
 
 ![Identicon](identicon/demo/identicon.gif)
 
-## Cards
+## 3 - Cards
 
 * ## Just a simple module to deal shuffled cards for a given hand size
 
